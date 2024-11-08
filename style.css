@@ -1,0 +1,18 @@
+ body{
+    background-color: blueviolet;
+ }
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: parent-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
