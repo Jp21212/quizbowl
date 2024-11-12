@@ -2,7 +2,7 @@
     background-color: blueviolet;
  }
 
-.input-container{
+output-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,9 +10,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 300px;
+    width: 300px;
     margin: 0;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 37%;
+    margin-top: 12%;
+    position: relative
 }
 
+.button{
+    width: 100px;
+    margin: 5px;
+}
 
+.header{
+    display: flex;
+    text-align: start;
+}
 
+.score{
+    display: flex;
+    text-align: start;
+}
