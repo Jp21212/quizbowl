@@ -2,11 +2,9 @@
     background-color: blueviolet;
  }
 
-output-container{
+.output-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: parent-height;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +13,7 @@ output-container{
     margin: 0;
     flex-direction: column;
     text-align: center;
-    border: 1px solid brown;
+    border: 1px solid black;
     background-color: white;
     border-radius: 10px;
     margin-left: 37%;
