@@ -10,3 +10,9 @@ submitSwitch.addEventListener("click", ()=>{
 
     currentQuestionIndex = (currentQuestionIndex)
 })
+
+const questionArray = [
+    "Whats bobs favrotie school object"
+    ""
+
+]
