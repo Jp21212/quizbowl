@@ -6,3 +6,32 @@ let questionIndex = 0;
 const question = document.querySelector('.question-container');
 const button = document.querySelector('.button-container');
 const input = document.querySelector('#input-field');
+let scoreContainer = document.querySelector(.'score-container');
+
+question.textContent = questionList[questionIndex]
+
+let submitFucntion = () => {
+    button.addEventListener('click', () =>{
+        if(input.ariaValueMax.value === answerList[questionIndex]){
+            questionIndex += 1;
+            score += 1;
+            question.textContent = questionList[questionIndex];
+            scoreContainer.textContent = Score:  + score;
+        }else{
+            score - 1;
+            scoreContainer.textContent Score + score;
+        }
+        //PUT ENDGAME FUNCTION HERE
+    });
+}
+
+Let endGame = () => {
+    if(questionIndex > 2){
+        scoreContainer.textContent = Final Score + score;
+        question.textContent = Good Boy!;
+        input.computedStyleMap.display = none;
+        button.computedStyleMap.display = none:
+    }
+}
+
+submitFunction();
